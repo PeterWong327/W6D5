@@ -1,0 +1,72 @@
+#root {
+  height:1000px;
+}
+
+/* ------------------------------------------clock */
+
+.clock-container {
+  display:block;
+  width:700px;
+  margin:auto;
+  margin-top: 50px;
+}
+
+.clock-title {
+  font-size:30px;
+  font-family: Papyrus;
+  color:black;
+}
+
+div.clock {
+  display: flex;
+  background-image: url('./avatar.jpg');
+  background-size:cover;
+  color:white;
+  position: relative;
+  height: 120px;
+  width: 700px;
+  font-family: Papyrus;
+}
+
+div.clock h1{
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 2px 2px 0 blue,2px -2px 0 blue,-2px -2px 0 blue,-2px 2px 0 blue;
+}
+
+div.clock .fields {
+  margin-left: 15px;
+}
+
+div.clock .data {
+  position: absolute;
+  right: 0;
+  margin-right: 15px;
+}
+
+div.clock .data h1 {
+  /* position: absolute; */
+  text-align:right;
+}
+
+/* ------------------------------------------tabs */
+
+.tabses {
+  width:300px;
+  background-color: lightblue;
+  font-weight:700;
+  height:350px;
+  border:2px solid black;
+}
+
+.tabses ul{
+  display:flex;
+  justify-content: center;
+}
+
+.tabses li{
+  width:33%;
+  border: 1px solid black;
+  text-align: center;
+}
